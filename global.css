@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--flord: #3a526a;
+	--amethyst: #af68ca;
+	--shamrock: #36cf73;
+	--tiara: #c6cfcf;
+	--slatGray: #75879b;
+}
+
+.bg-flord {
+	background-color: var(--flord);
+}
+.bg-amethyst {
+	background-color: var(--amethyst);
+}
+.bg-shamrock {
+	background-color: var(--shamrock);
+}
+.bg-tiara {
+	background-color: var(--tiara);
+}
+.bg-slatGray {
+	background-color: var(--slatGray);
+}
+.bg-white {
+	background-color: white;
+}
+.bg-red {
+	background-color: red;
+}
+.bg-orange {
+	background-color: orange;
+}
+.bg-blue {
+	background-color: blue;
+}
+.bg-green {
+	background-color: green;
+}
+.bg-pink {
+	background-color: pink;
+}
+.bg-purple {
+	background-color: purple;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.grid {
+	display: grid;
+}
+
+.align-center {
+	align-items: center;
+}
+
+.align-end {
+	align-items: end;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.justify-end {
+	justify-content: flex-end;
+}
+
+.h-100 {
+	height: 100%;
+}
+
+.w-100 {
+	width: 100%;
+}
